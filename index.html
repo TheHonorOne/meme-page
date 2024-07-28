@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme page</title>
+    <link
+    rel="stylesheet"
+    href="./style.css"/>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="head"><h1>MY MEME PAGE</h1></div>
+    <hr style="border: 2px solid black;"/>
+    <hr style="border: 2px solid black;"/>
+    
+    <div id="second">
+        <img src="./assets/images/mahesh.jpg"  id="soundimage" alt="mahesh manjrekar" style="cursor: pointer;"/>
+        <audio id="audio" src="./assets/audio/tenene.mp3"></audio>
+        <p>Chalti firti cocaine hai cocaine</p>
+    </div>
+    <script>
+        document.getElementById('soundimage').addEventListener('click',function(){
+            document.getElementById('audio').play();
+        });
+    </script>
+    <a href="./other.html">Click for other memes</a>
+</body>
+</html>

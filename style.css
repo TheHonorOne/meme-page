@@ -1,0 +1,32 @@
+html{
+    background-color: #BC9F8B;
+    color: white;
+    font-family: "Oswald", sans-serif;
+}
+#head{
+    
+}
+h1{
+    text-align: center;
+}
+
+p{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+img{
+    border: 10px solid #B5CFB7;
+    height: 500px;
+    width: 500px;
+    margin: 0px 20px;
+}
+
+div{
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+}
+#first{
+    margin-bottom: 50px;
+}
